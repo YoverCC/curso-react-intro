@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/TodoSearch.css'
+import './TodoSearch.css'
 
 // viene en las props, pero se usa destructuracion para obtener directamente lo que se envio en App.js
 function TodoSearch({

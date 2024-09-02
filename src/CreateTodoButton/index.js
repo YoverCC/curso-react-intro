@@ -1,6 +1,6 @@
-import './css/CreateTodoButton.css'
+import './CreateTodoButton.css'
 
-function CreateTodoButton({todos}) {
+function CreateTodoButton() {
     return(
         <button 
             className='CreateTodoButton'
