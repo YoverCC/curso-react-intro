@@ -5,12 +5,12 @@ import './TodosLoading.css'
 function TodosLoading(){
 
     return(
-        <div class="spinner">
+        <div className="spinner">
         <div>T</div>
         <div>O</div>
         <div>D</div>
         <div>O</div>
-        <div class="icon-1">
+        <div className="icon-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -28,7 +28,7 @@ function TodosLoading(){
         <div>O</div>
         <div>D</div>
         <div>O</div>
-        <div class="icon-2">
+        <div className="icon-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -42,7 +42,7 @@ function TodosLoading(){
             ></path>
           </svg>
         </div>
-        <div class="middle">loading</div>
+        <div className="middle">loading</div>
       </div>
       
     );
